@@ -1,0 +1,12 @@
+[project]
+name = "pml-lecture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jax[cuda13]>=0.11.0",
+    "jaxtyping>=0.3.11",
+    "matplotlib>=3.11.1",
+    "tueplots>=0.2.4",
+]
